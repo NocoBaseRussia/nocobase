@@ -1,13 +1,16 @@
 {
   "name": "@nocobase/plugin-verification",
   "displayName": "Verification",
+  "displayName.ru-RU": "Верификация",
   "displayName.zh-CN": "验证",
   "description": "User identity verification management, including SMS, TOTP authenticator, with extensibility.",
+  "description.ru-RU": "Управление проверкой личности пользователя, включая SMS, TOTP-авторизацию, с возможностью расширения.",
   "description.zh-CN": "用户身份验证管理，包含短信、TOTP 认证器等，可扩展。",
   "version": "1.8.27",
   "license": "AGPL-3.0",
   "main": "./dist/server/index.js",
   "homepage": "https://docs.nocobase.com/handbook/verification",
+  "homepage.ru-RU": "https://docs-ru.nocobase.com/handbook/verification",
   "homepage.zh-CN": "https://docs-cn.nocobase.com/handbook/verification",
   "devDependencies": {
     "@alicloud/dysmsapi20170525": "2.0.17",
@@ -24,14 +27,13 @@
   },
   "peerDependencies": {
     "@nocobase/actions": "1.x",
-    "@nocobase/client": "1.x",
-    "@nocobase/database": "1.x",
-    "@nocobase/resourcer": "1.x",
-    "@nocobase/server": "1.x",
-    "@nocobase/test": "1.x",
-    "@nocobase/utils": "1.x"
+    "@nocobase.client": "1.x",
+    "@nocobase.database": "1.x",
+    "@nocobase.resourcer": "1.x",
+    "@nocobase.server": "1.x",
+    "@nocobase.test": "1.x",
+    "@nocobase.utils": "1.x"
   },
-  "gitHead": "d0b4efe4be55f8c79a98a331d99d9f8cf99021a1",
   "keywords": [
     "Authentication",
     "Verification",

@@ -1,13 +1,16 @@
 {
   "name": "@nocobase/plugin-workflow-dynamic-calculation",
+  "version": "1.8.27",
   "displayName": "Workflow: Dynamic calculation node",
+  "displayName.ru-RU": "Рабочий процесс: Узел динамических вычислений",
   "displayName.zh-CN": "工作流：动态表达式计算节点",
   "description": "Useful plugin for doing dynamic calculation based on expression collection records in workflow.",
+  "description.ru-RU": "Полезный плагин для выполнения динамических вычислений на основе записей коллекции выражений в рабочем процессе.",
   "description.zh-CN": "用于在工作流中进行基于数据行的动态表达式计算。",
-  "version": "1.8.27",
   "license": "AGPL-3.0",
-  "main": "./dist/server/index.js",
+  "main": "dist/server/index.js",
   "homepage": "https://docs.nocobase.com/handbook/workflow-dynamic-calculation",
+  "homepage.ru-RU": "https://docs-ru.nocobase.com/handbook/workflow-dynamic-calculation",
   "homepage.zh-CN": "https://docs-cn.nocobase.com/handbook/workflow-dynamic-calculation",
   "devDependencies": {
     "@ant-design/icons": "5.x",

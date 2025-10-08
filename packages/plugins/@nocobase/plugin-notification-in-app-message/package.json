@@ -1,15 +1,16 @@
+```json
 {
   "name": "@nocobase/plugin-notification-in-app-message",
   "version": "1.8.27",
   "displayName": "Notification: In-app message",
+  "displayName.ru-RU": "Уведомления: Сообщения внутри приложения",
   "displayName.zh-CN": "通知：站内信",
   "description": "It supports users in receiving real-time message notifications within the NocoBase application.",
+  "description.ru-RU": "Поддерживает получение пользователями уведомлений в реальном времени внутри приложения NocoBase.",
   "description.zh-CN": "支持用户在 NocoBase 应用内实时接收消息通知。",
   "homepage": "https://docs.nocobase.com/handbook/notification-in-app-message",
+  "homepage.ru-RU": "https://docs-ru.nocobase.com/handbook/notification-in-app-message",
   "homepage.zh-CN": "https://docs-cn.nocobase.com/handbook/notification-in-app-message",
-  "keywords": [
-    "Notification"
-  ],
   "main": "dist/server/index.js",
   "dependencies": {
     "immer": "^10.1.1"
@@ -25,5 +26,14 @@
     "@nocobase/server": "1.x",
     "@nocobase/test": "1.x",
     "react-router-dom": "^6.x"
-  }
+  },
+  "keywords": [
+    "Notification"
+  ]
 }
+```
+
+[1](https://docs.nocobase.com/handbook/notification-in-app-message/)
+[2](https://docs.nocobase.com/handbook/notification-manager/)
+[3](https://docs.nocobase.com/handbook/notification-manager/development/extension/)
+[4](https://github.com/hiifong/starList)

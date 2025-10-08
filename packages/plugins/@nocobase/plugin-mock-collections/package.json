@@ -1,8 +1,10 @@
 {
   "name": "@nocobase/plugin-mock-collections",
-  "displayName": "mock-collections",
-  "description": "mock-collections",
+  "displayName": "Mock Collections",
+  "displayName.ru-RU": "Тестовые коллекции",
   "version": "1.8.27",
+  "description": "mock-collections",
+  "description.ru-RU": "Тестовые коллекции",
   "main": "./dist/server/index.js",
   "license": "AGPL-3.0",
   "peerDependencies": {

@@ -1,17 +1,20 @@
 {
   "name": "@nocobase/plugin-system-settings",
   "displayName": "System settings",
+  "displayName.ru-RU": "Системные настройки",
   "displayName.zh-CN": "系统设置",
   "description": "Used to adjust the system title, logo, language, etc.",
+  "description.ru-RU": "Используется для настройки заголовка системы, логотипа, языка и т.д.",
   "description.zh-CN": "用于调整系统的标题、LOGO、语言等。",
   "version": "1.8.27",
   "license": "AGPL-3.0",
-  "main": "./dist/server/index.js",
+  "main": "dist/server/index.js",
   "homepage": "https://docs.nocobase.com/handbook/system-settings",
+  "homepage.ru-RU": "https://docs-ru.nocobase.com/handbook/system-settings",
   "homepage.zh-CN": "https://docs-cn.nocobase.com/handbook/system-settings",
   "peerDependencies": {
-    "@nocobase/client": "1.x",
-    "@nocobase/database": "1.x",
+    "@nocobase-client": "1.x",
+    "@nocobase-database": "1.x",
     "@nocobase/server": "1.x",
     "@nocobase/test": "1.x"
   },
